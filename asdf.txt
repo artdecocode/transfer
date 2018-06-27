@@ -58,7 +58,9 @@ en 9: Website development software
  Online payment software
  Electronic magazines
  Downloadable electronic publications in the nature of magazines
- Mobile Apps
+ Mobile apps
+ Downloadable software in the nature of a mobile application for playing games
+ Electronic game software for handheld electronic devices
 
 en 16: Photo storage boxes
  Plastic pages with pockets for holding photographs
@@ -109,6 +111,7 @@ en 41: Photographic reporting
  Training services in the field of computer software development
  Training in the development of software systems
  Training in the design of software systems
+ Archive library services
  Providing multi-media entertainment via a website
  Provision of online information relating to audio and visual media
  Provision of audio and visual media via communications networks
