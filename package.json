@@ -2,7 +2,7 @@
   "name": "transfer",
   "version": "1.0.0",
   "description": "Update the maintainer's information for npm packages.",
-  "main": "build",
+  "main": "build/bin",
   "scripts": {
     "t": "zoroaster -b",
     "test": "zoroaster -b test/spec",
@@ -10,6 +10,7 @@
     "test-all": "yarn-s test test-build",
     "test-watch": "yarn test -w",
     "lint": "eslint .",
+    "dev": "node src/bin/register.js",
     "doc": "NODE_DEBUG=doc doc documentation -o README.md",
     "rec": "NODE_DEBUG=appshot appshot -T 23 -a Terminal -y 150 -f",
     "e": "node example",
@@ -38,5 +39,8 @@
     "eslint-config-artdeco": "1.0.0",
     "yarn-s": "1.1.0",
     "zoroaster": "2.1.0"
+  },
+  "dependencies": {
+    "spawncommand": "2.0.1"
   }
 }
