@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { addOwner, removeOwner } from '../lib'
 
 const newOwner = 'artdecocode'
