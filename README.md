@@ -12,7 +12,7 @@ yarn add -E transfer
 
 - [Table Of Contents](#table-of-contents)
 - [API](#api)
-  * [`transfer(arg1: string, arg2?: boolean)`](#mynewpackagearg1-stringarg2-boolean-void)
+  * [`transfer(arg1: string, arg2?: boolean)`](#transferarg1-stringarg2-boolean-void)
 
 ## API
 

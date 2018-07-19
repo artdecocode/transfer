@@ -12,7 +12,7 @@
       "env": {
         "BABEL_ENV": "debug",
       },
-      "cwd": "${workspaceFolder}/../idio",
+      "cwd": "${workspaceFolder}/../restream",
       "skipFiles": [
         "<node_internals>/**/*.js"
       ],

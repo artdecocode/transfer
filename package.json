@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Update the maintainer's information for npm packages.",
   "main": "build/bin",
+  "bin": {
+    "transfer": "build/bin/index.js"
+  },
   "scripts": {
     "t": "zoroaster -b",
     "test": "zoroaster -b test/spec",
