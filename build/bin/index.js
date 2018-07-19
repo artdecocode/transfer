@@ -3,13 +3,16 @@
 
 var _lib = require("../lib");
 
+var _path = require("path");
+
 const newOwner = 'artdecocode';
 let name;
 
 try {
+  const p = (0, _path.resolve)(process.cwd(), 'package.json');
   ({
     name
-  } = require('./package.json'));
+  } = require(p));
 } catch (err) {
   console.log('Could not find name from the package.json');
   process.exit(1);
